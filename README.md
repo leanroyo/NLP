@@ -46,6 +46,7 @@ Los embeddings generados reflejan el contexto y las relaciones semánticas dentr
 <p align="center">
   <img src="desafios/images/jimi-hendrix.avif" alt="Jimi Hendrix">
 </p>
+
 ### Parte 1: Dataset de Canciones (The Beatles y Jimi Hendrix)
 
 1. **Preparación de Datos:**
