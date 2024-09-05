@@ -156,21 +156,21 @@ Este código entrena un modelo de aprendizaje profundo para simular conversacion
 
 ![Bert](desafios/images/bert.webp)
 
-### 1. Preparación de Datos:
+1. **Preparación de Datos:**
    - Carga de un conjunto de datos de reseñas de aplicaciones.
    - Limpieza y preprocesamiento del texto, incluyendo la tokenización con el tokenizador de BERT.
    - Creación de conjuntos de entrenamiento y evaluación para estructurar los datos de forma adecuada.
 
-### 2. Construcción del Modelo:
+2. **Construccion del modelo:**
    - Uso de la arquitectura BERT preentrenada como base para el análisis de sentimiento.
    - Adición de capas densas sobre la salida de BERT para realizar la clasificación multiclase (sentimientos positivos, negativos y neutrales).
 
-### 3. Entrenamiento:
+3. **Entrenamiento:**
    - Entrenamiento del modelo de clasificación sobre el conjunto de datos etiquetado.
    - Optimización con técnicas de regularización como el **dropout** para evitar el sobreajuste.
    - Uso del optimizador Adam con parámetros predefinidos para lograr una buena convergencia.
 
-### 4. Evaluación:
+4. **Evaluacion:**
    - Evaluación del modelo en un conjunto de datos de prueba.
    - Cálculo de métricas clave como la **precisión** y el **F1-score** para medir el rendimiento en la clasificación de los sentimientos.
 
